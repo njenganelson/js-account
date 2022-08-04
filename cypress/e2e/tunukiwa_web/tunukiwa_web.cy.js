@@ -1,6 +1,5 @@
 describe('Tunukiwa on Web', () => {
-  
-  it('Navigate to Tunukiwa webpage', () => {
+  beforeEach (() => {
       cy.visit("https://safaricom.com/bundles/tunukiwa")
     }) 
   it('Verify Page Title',()=>{
