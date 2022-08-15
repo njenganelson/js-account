@@ -4,15 +4,15 @@ module.exports = defineConfig({
   e2e: {
     setupNodeEvents(on, config) {
       // implement node event listeners here
-      
+      baseUrl: 'https://safaricom.com'
+
     },
   },
 
   component: {
     devServer: {
       framework: "react",
-      bundler: "vite",
-      pageLoadTimeout:10000,
+      bundler: "vite"
     },
   },
 });

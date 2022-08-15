@@ -1,7 +1,7 @@
 describe('Navigate to My Safaricom Account', () => {
   
   it('User is not connected to Safaricom Data bundles', () => {
-      cy.visit("https://safaricom.com/account")
+      cy.visit('https://safaricom.com/account')
     }) 
   it('Verify Page Title',()=>{
         cy.title().should('eq', 'My Account')
